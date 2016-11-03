@@ -2,8 +2,8 @@ server:
   port: 8081
 
 spring:
-  application:
-    name: demo-consumer
+#  application:
+#    name: demo-consumer
   thymeleaf:
     cache: false
 eureka:
@@ -14,5 +14,3 @@ eureka:
     fetch-registry: true
   instance:
     prefer-ip-address: true
-
-

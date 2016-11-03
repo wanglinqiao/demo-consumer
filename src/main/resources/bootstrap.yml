@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: demo-config
+  cloud:
+    config:
+      uri: http://config-server:8082/
+      profile: dev
+      label: master

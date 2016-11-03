@@ -12,7 +12,6 @@ import java.util.Calendar;
  * Created by wang.linqiao on 2016/10/28.
  */
 @Controller
-@ApiIgnore
 public class PageResource {
     @RequestMapping("/")
     public String toHome(Model model){
